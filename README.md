@@ -365,7 +365,7 @@ A configuração exportada da AWS especifica IKEv1, AES128, SHA1, DH Group 2, li
 | PFS | Group 2 |
 | Lifetime | 3600 segundos |
 
-Esses parâmetros constam na configuração exportada pela AWS. fileciteturn0file0L79-L94
+Esses parâmetros constam na configuração exportada pela AWS. 
 
 ### Redes da Phase 2
 
