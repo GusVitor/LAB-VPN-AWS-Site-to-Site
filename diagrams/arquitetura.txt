@@ -1,0 +1,28 @@
+AWS Site-to-Site VPN - Lab
+
+ON-PREMISES SIMULADO
+VPC: DTC-LOCAL
+10.10.0.0/16
+
+WAN: 10.10.1.0/24
+        |
+        v
+     pfSense
+        |
+LAN: 10.10.10.0/24
+        |
+Ubuntu: 10.10.10.10
+        |
+        | IPsec
+        v
+Virtual Private Gateway
+        |
+        v
+AWS
+VPC: LAB-CONECTIVIDADE
+10.20.0.0/16
+        |
+Private Subnet
+10.20.10.0/24
+        |
+Ubuntu: 10.20.10.10
