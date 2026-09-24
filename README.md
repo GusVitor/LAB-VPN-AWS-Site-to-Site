@@ -350,7 +350,7 @@ A configuração exportada pela AWS foi utilizada como referência para configur
 | DPD Delay | 10 segundos |
 | DPD Retries | 3 |
 
-A configuração exportada da AWS especifica IKEv1, AES128, SHA1, DH Group 2, lifetime de 28800 segundos, NAT Traversal em modo automático e DPD habilitado. fileciteturn0file0L40-L67
+A configuração exportada da AWS especifica IKEv1, AES128, SHA1, DH Group 2, lifetime de 28800 segundos, NAT Traversal em modo automático e DPD habilitado. 
 
 ---
 
@@ -390,7 +390,7 @@ Tunnel 1
 Tunnel 2
 ```
 
-e a própria configuração informa que os dois túneis devem ser configurados para redundância. fileciteturn0file0L14-L18
+e a própria configuração informa que os dois túneis devem ser configurados para redundância. 
 
 Neste laboratório, entretanto, **somente um túnel foi utilizado operacionalmente para os testes**.
 
@@ -525,7 +525,7 @@ TCP/22
 
 ### VPN / IKE
 
-Para estabelecimento/manutenção da VPN, devem ser considerados os protocolos necessários à negociação IPsec, incluindo UDP 500 e, quando NAT-T estiver sendo utilizado, UDP 4500. A configuração exportada da AWS também orienta essa necessidade para NAT-T. fileciteturn0file0L31-L35
+Para estabelecimento/manutenção da VPN, devem ser considerados os protocolos necessários à negociação IPsec, incluindo UDP 500 e, quando NAT-T estiver sendo utilizado, UDP 4500. A configuração exportada da AWS também orienta essa necessidade para NAT-T.
 
 > **Nota:** essas regras são uma reconstrução técnica de referência baseada no cenário informado. Como o ambiente foi excluído e não existem screenshots das regras originais, elas não devem ser tratadas como cópia exata da configuração histórica.
 
